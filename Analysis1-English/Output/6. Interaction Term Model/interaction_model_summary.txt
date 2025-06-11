@@ -1,0 +1,37 @@
+                           PanelOLS Estimation Summary                           
+=================================================================================
+Dep. Variable:     Gross Profit Margin   R-squared:                        0.7521
+Estimator:                    PanelOLS   R-squared (Between):              0.9878
+No. Observations:                  216   R-squared (Within):               0.7521
+Date:                 Wed, Jun 11 2025   R-squared (Overall):              0.9857
+Time:                         05:37:48   Log-likelihood                    686.15
+Cov. Estimator:         Driscoll-Kraay                                           
+                                         F-statistic:                      103.13
+Entities:                            6   P-value                           0.0000
+Avg Obs:                        36.000   Distribution:                   F(6,204)
+Min Obs:                        36.000                                           
+Max Obs:                        36.000   F-statistic (robust):             107.24
+                                         P-value                           0.0000
+Time periods:                       36   Distribution:                   F(6,204)
+Avg Obs:                        6.0000                                           
+Min Obs:                        6.0000                                           
+Max Obs:                        6.0000                                           
+                                                                                 
+                                  Parameter Estimates                                   
+========================================================================================
+                      Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------
+AR_spline1               0.8354     0.0348     23.981     0.0000      0.7667      0.9041
+AR_spline2              -0.1275     0.0359    -3.5526     0.0005     -0.1982     -0.0567
+AR_spline3              -0.4378     0.0810    -5.4049     0.0000     -0.5976     -0.2781
+AR_spline4              -0.5979     0.0720    -8.3023     0.0000     -0.7398     -0.4559
+GovPrice_centered        0.0012     0.0003     4.8452     0.0000      0.0007      0.0017
+Interaction_GovPrice    -0.0008     0.0003    -3.0834     0.0023     -0.0013     -0.0003
+CPI_lag0                -0.0006     0.0003    -1.9732     0.0498     -0.0012   -4.89e-07
+========================================================================================
+
+F-test for Poolability: 1.2363
+P-value: 0.2934
+Distribution: F(5,204)
+
+Included effects: Entity
